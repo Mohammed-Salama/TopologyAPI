@@ -1,6 +1,7 @@
 const API = require('./modules/API.js')
 let api = new API()
 api.readJson('topology1.json')
+console.log(api.writeJson('top1'))
 api.readJson('topology2.json')
 api.readJson('topology1.json')
 api.readJson('topology3.json')

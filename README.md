@@ -17,6 +17,10 @@ then to install npm run the following command
 ## How to run:
 run command:
 ``` npm start```
+In case you need to run tests code
+``` npm test ``` 
+In case you need to get API documentation
+``` jsdoc ./modules/API.js ```
 # Test Results:
 ![image](https://github.com/Mohammed-Salama/TopologyAPI/blob/main/ScreenShots/2.png)
 

@@ -20,7 +20,7 @@ class API {
      */
     readJson(FileName){
         try {
-            const data = readFileSync(FileName);
+            const data = readFileSync('Inputs/'+FileName);
             var jsonData = JSON.parse(data);
             if (this.getTopology(jsonData["id"])==null){
                 let topology = new Topology (jsonData)
@@ -43,7 +43,7 @@ class API {
         var topology = this.getTopology(TopologyID)
         if (topology != null){
             try {
-                writeFileSync(topology["id"]+'json', JSON.stringify(topology.topologyJsonObject()));
+                writeFileSync('./Outputs/'+topology["id"]+'json', JSON.stringify(topology.topologyJsonObject(),null,"\t"));
                 return true
             } 
             catch (error) {

@@ -7,8 +7,8 @@ class Component {
     getNetlist(){
         return this.netlist
     }
-    componentJsonObject (){
-        return null
-    }
+    /*componentJsonObject (){
+        // every component should have its componentJsonObject
+    }*/
 }
 module.exports = Component
