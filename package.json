@@ -1,0 +1,14 @@
+{
+  "name": "topologies_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "author": "Mohamed Salama",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.6.10"
+  }
+}
