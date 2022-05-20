@@ -14,6 +14,7 @@ install node js
 then to install npm run the following command
 ``` npm install```
 
+## How to run:
 run command:
 ``` npm start```
 # Test Results:
